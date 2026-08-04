@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { useCalculator } from './useCalculator.js'
+import { useCalculator } from '../composables/useCalculator.js'
 
 describe('useCalculator', () => {
   let calculator

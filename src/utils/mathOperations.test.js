@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { add, subtract, multiply, divide } from './mathOperations.js'
+import { add, subtract, multiply, divide } from '../composables/mathOperations.js'
 
 describe('mathOperations', () => {
   describe('add', () => {

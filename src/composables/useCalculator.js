@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import { add, subtract, multiply, divide } from '../utils/mathOperations.js'
+import { add, subtract, multiply, divide } from './mathOperations.js'
 
 export function useCalculator() {
   const display = ref('0')

@@ -19,6 +19,7 @@
 
 <script setup>
 import { useCalculator } from '../../composables/useCalculator.js'
+import { useMemoryStore } from '../../stores/memory.js'
 import CalculatorDisplay from './CalculatorDisplay.vue'
 import CalculatorKeypad from './CalculatorKeypad.vue'
 
@@ -33,16 +34,19 @@ const {
   setDisplayValue,
 } = useCalculator()
 
-// Los de memoria los dejamos preparados de momento, sin Pinia todavía
+const memoryStore = useMemoryStore()
+
 function handleMemoryAdd() {
-  console.log('memory add:', display.value)
+  memoryStore.setMemory(parseFloat(display.value))
 }
 
 function handleMemoryRecall() {
-  console.log('memory recall')
+  if (memoryStore.hasValue) {
+    setDisplayValue(memoryStore.value)
+  }
 }
 
 function handleMemoryClear() {
-  console.log('memory clear')
+  memoryStore.clearMemory()
 }
 </script>
