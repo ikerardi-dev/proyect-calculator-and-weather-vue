@@ -1,8 +1,9 @@
 <template>
-  <div class="min-h-screen bg-slate-900 flex items-center justify-center">
-    <h1 class="text-3xl font-bold text-white">Hola Tailwind 👋</h1>
+  <div class="min-h-screen bg-slate-900 py-8">
+    <CalculatorApp />
   </div>
 </template>
 
 <script setup>
+import CalculatorApp from '/src/components/calculator/CalculatorApp.vue'
 </script>
