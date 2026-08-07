@@ -26,14 +26,14 @@
       <li
         v-for="city in cities"
         :key="city.name"
-        class="flex items-center justify-between bg-slate-700 rounded-lg px-3 py-2"
+        class="flex items-start justify-between bg-slate-700 rounded-lg px-3 py-2"
       >
-        <div class="flex items-center gap-2">
+        <div class="flex items-start gap-2">
           <WeatherIcon
             :state-sky-id="city.stateSky?.id"
             :description="city.stateSky?.description"
           />
-          <div>
+          <div style="text-align: start;">
             <p class="text-white font-medium">{{ city.name }}</p>
             <p class="text-slate-400 text-xs">{{ city.stateSky?.description }}</p>
           </div>
