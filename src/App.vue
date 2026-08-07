@@ -3,6 +3,7 @@
     <div class="max-w-sm mx-auto">
       <CalculatorApp />
       <CurrencyConverter />
+      <WeatherWidget />
     </div>
   </div>
 </template>
@@ -10,4 +11,5 @@
 <script setup>
 import CalculatorApp from './components/calculator/CalculatorApp.vue'
 import CurrencyConverter from './components/currency/CurrencyConverter.vue'
+import WeatherWidget from './components/weather/WeatherWidget.vue'
 </script>
