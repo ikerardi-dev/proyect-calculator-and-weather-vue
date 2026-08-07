@@ -38,7 +38,7 @@
             <p class="text-slate-400 text-xs">{{ city.stateSky?.description }}</p>
           </div>
         </div>
-        <p class="text-white text-sm font-mono">
+        <p class="text-white text-sm font-mono whitespace-nowrap">
           {{ city.temperatures?.max }}° / {{ city.temperatures?.min }}°
         </p>
       </li>
