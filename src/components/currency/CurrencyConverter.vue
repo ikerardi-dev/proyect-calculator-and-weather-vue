@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-800 rounded-lg p-4 mt-6">
+  <div>
     <h2 class="text-white font-semibold text-lg mb-3">Conversor de Divisas</h2>
 
     <div v-if="isLoading" class="text-slate-400 text-sm">

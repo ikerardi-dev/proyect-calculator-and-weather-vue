@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm mx-auto p-4">
+  <div>
     <CalculatorDisplay
       :value="display"
       :is-error="!!error"

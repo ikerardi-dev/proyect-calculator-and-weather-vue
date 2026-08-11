@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-slate-900 py-8">
-    <div class="max-w-sm mx-auto">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <CalculatorApp />
       <CurrencyConverter />
       <WeatherWidget />

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-slate-800 rounded-lg p-4 mt-6">
+<div>
     <h2 class="text-white font-semibold text-lg mb-3">El Tiempo</h2>
 
     <WeatherLocationSelector
