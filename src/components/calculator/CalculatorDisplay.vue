@@ -3,6 +3,7 @@
     <p
       class="text-right text-3xl font-mono text-white truncate"
       :class="{ 'text-red-400': isError }"
+      data-testid="calculator-display"
     >
       {{ value }}
     </p>
