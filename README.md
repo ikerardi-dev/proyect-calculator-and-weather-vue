@@ -106,7 +106,7 @@ npm run test:e2e    # end-to-end
 
 ## 🌐 Despliegue
 
-La aplicación está desplegada en GitHub Pages: [enlace aquí]
+La aplicación está desplegada en GitHub Pages: [(https://ikerardi-dev.github.io/proyect-calculator-and-weather-vue/)]
 
 ## 👤 Autor
 
