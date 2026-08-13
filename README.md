@@ -46,17 +46,18 @@ Aplicación de calculadora multifuncional desarrollada como ejercicio del bootca
 
 ## 📁 Estructura del proyecto
 
+```
 src/
 ├── components/
-│ ├── calculator/ # Componentes de la calculadora
-│ ├── currency/ # Componentes del conversor de divisas
-│ └── weather/ # Componentes del widget del tiempo
-├── composables/ # Lógica reutilizable (Composition API)
-├── stores/ # Estado global con Pinia
-├── services/ # Llamadas a APIs externas (Axios)
-└── utils/ # Funciones puras (matemáticas, iconos, etc.)
-e2e/ # Tests end-to-end con Playwright
-
+│   ├── calculator/      # Componentes de la calculadora
+│   ├── currency/        # Componentes del conversor de divisas
+│   └── weather/         # Componentes del widget del tiempo
+├── composables/         # Lógica reutilizable (Composition API)
+├── stores/              # Estado global con Pinia
+├── services/            # Llamadas a APIs externas (Axios)
+└── utils/               # Test de unitarios de componentes
+e2e/                     # Tests end-to-end con Playwright
+```
 ## 🚀 Instalación
 
 1. Clona el repositorio:
